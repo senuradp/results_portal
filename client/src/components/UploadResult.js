@@ -12,7 +12,7 @@ const UploadResult = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5200/api/upload', { event, gender, entries });
+      await axios.post(`${process.env.REACT_APP_API_URL}/api/upload`, { event, gender, entries });
       setEvent('');
       setGender('');
       setEntries([{ name: '', placedAt: '', timing: '' }]);

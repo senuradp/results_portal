@@ -12,7 +12,7 @@ const SearchResult = () => {
   const handleSearch = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.get('http://localhost:5200/api/search', {
+      const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/search`, {
         params: { event, gender },
       });
       setResults(response.data);
