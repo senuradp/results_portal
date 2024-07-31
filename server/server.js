@@ -11,9 +11,9 @@ const PORT = process.env.PORT || 5200;
 
 // CORS configuration
 const corsOptions = {
-  origin: process.env.BASE_URL,
+  origin: '*',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, // Enable cookies or authorization headers
+  credentials: true,
 };
 
 // Middleware setup
