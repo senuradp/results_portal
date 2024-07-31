@@ -1,0 +1,179 @@
+/* General container styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("../swimming.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #root {
+    height: 100%;
+  }
+  
+  .app-container {
+    background: rgba(255, 255, 255, 0.8); /* Optional: to make the content readable */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px; /* Adjust as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: for a subtle shadow effect */
+    overflow-y: auto; /* Enable vertical scrolling */
+    height: calc(100vh - 150px); /* Adjust to fit the viewport height */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #2c3e50;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  thead {
+    background: #34495e;
+    color: white;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #bdc3c7;
+  }
+  
+  tbody tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background: #ecf0f1;
+  }
+  
+  tbody tr span {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background: #95a5a6;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .back-button {
+    position: absolute;
+    margin-top: -20px;
+    top: 10px;
+    left: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .app-container {
+      padding: 15px;
+      margin-top: 50px;
+      height: calc(100vh - 100px);
+    }
+  
+    h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+  
+    h3 {
+      font-size: 20px;
+      margin-top: 15px;
+    }
+  
+    ul li {
+      padding: 8px;
+    }
+  
+    table th, table td {
+      padding: 8px;
+    }
+  
+    tbody tr span {
+      padding: 8px;
+      margin: 8px 0;
+    }
+  
+    .back-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .app-container {
+      padding: 10px;
+      margin-top: 20px;
+      height: calc(100vh - 150px);
+    }
+  
+    h2 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    h3 {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  
+    ul li {
+      padding: 6px;
+    }
+  
+    table th, table td {
+      padding: 6px;
+    }
+  
+    tbody tr span {
+      padding: 6px;
+      margin: 6px 0;
+    }
+  
+    .back-button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+  }
+  

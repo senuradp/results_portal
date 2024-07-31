@@ -1,0 +1,16 @@
+/* Admin.css */
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  

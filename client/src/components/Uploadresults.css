@@ -1,0 +1,29 @@
+/* UploadResult.css */
+.back-button {
+    position: absolute;
+    top: 10px;
+    
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button::before {
+    content: '\2190'; /* Unicode arrow character */
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  
+  .entry {
+    margin-bottom: 15px;
+  }
+  

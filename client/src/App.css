@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding-bottom: 30;
+  font-family: Arial, sans-serif;
+  background: url("swimming.png"); /* Path to the image in the public directory */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+#root {
+  height: 100%;
+}
+
+.app-container {
+  background: rgba(255, 255, 255, 0.507); /* Optional: to make the content readable */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 120px; /* Adjust as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: for a subtle shadow effect */
+}

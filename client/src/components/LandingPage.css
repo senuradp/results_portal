@@ -1,0 +1,29 @@
+/* LandingPage.css */
+.container {
+    text-align: center;
+    margin-top: 100px;
+    background: rgba(249, 249, 248, 0);
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+  }
+  
+  button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
